@@ -1,0 +1,182 @@
+html{
+	font-family: 'Titillium Web', sans-serif;
+	background-color: #222831;
+	color: #eeeeee;
+
+}
+
+h1{
+	color: #ffd369;
+}
+
+div{
+	background-color: #393e46;
+	border-radius: 5px;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+div.nav{
+	background-color: transparent;
+}
+
+.telugu{
+	font-family: 'Suravaram', serif;
+}
+
+hr{
+	border-color: red;
+	box-shadow: 0 4px 8px 0 red, 0 6px 20px 0 red;
+}
+
+hr:hover{
+	border-color: #ffd369;
+	box-shadow: 0 4px 8px 0 #ffd369, 0 6px 20px 0 #ffd369;
+}
+
+img{
+	box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+
+button{
+	
+	color: red;
+	border-color: red;
+	box-shadow: 0 0 5px red;
+	margin: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+	background-color: transparent;
+	min-width: 10%;
+	width: auto;
+}
+
+button:hover{
+	color: #ffd369;
+	border-color: #ffd369;
+	box-shadow: 0 0 10px #ffd369;
+	margin: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+	background-color: transparent;
+	min-width: 10%;
+	width: auto;
+}
+
+button.navbut{
+	
+	color: red;
+	border-color: red;
+	box-shadow: 0 0 5px red;
+	margin: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: transparent;
+	min-width: 10%;
+	width: auto;
+}
+
+button.navbut:hover{
+	color: #ffd369;
+	border-color: #ffd369;
+	box-shadow: 0 0 10px #ffd369;
+	margin: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: transparent;
+	min-width: 10%;
+	width: auto;
+	
+}
+
+.logo{
+	font-family: 'Goldman', cursive;
+	font-size: 35px; 
+	text-shadow: 0 0 19px black;
+	color: #ffd369;
+
+}
+
+.logo:hover{
+	font-family: 'Goldman', cursive;
+	color: red;
+	font-size: 35px; 
+	text-shadow: 0 2px 29px black;
+	-webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  	-moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  	animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+.logofoot{
+	font-family: 'Goldman', cursive;
+	
+	text-shadow: 0 0 19px black;
+	color: #ffd369;
+
+}
+
+.logofoot:hover{
+	font-family: 'Goldman', cursive;
+	color: red;
+	
+	text-shadow: 0 2px 29px black;
+	-webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  	-moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  	animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+
+div.footer{
+	background-color: #121212;
+}
+
+a{
+	  text-decoration: none;
+  
+}
+
+@-webkit-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+}
+
+@-moz-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+}
+
+@keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+}
+
+
+@media (max-width: 650px) {
+  #container {
+    width: 100%;
+  }
+  p {
+    font-size: 3.5em;
+  }
+}

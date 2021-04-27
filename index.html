@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BHARGAV SAI</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+	<link href="https://fonts.googleapis.com/css2?family=Goldman:wght@700&family=Suravaram&family=Titillium+Web&display=swap" rel="stylesheet">
+	
+
+</head>
+<body>
+	
+	
+	<h1 align="center" class="logo" onmouseover="PlaySound('mySound')" 
+    onmouseout="StopSound('mySound')">BHARGAV SAI NIZAMPATNAM</h1>
+	<hr>
+	<div class="nav" align="center">
+		<a href="https://www.facebook.com/profile.php?id=100005237928082" target="_blank" onclick="PlaySound('button')"><button class="navbut" ><b>FACEBOOK</b></button></a>
+		<a href="https://www.instagram.com/_bhargavsai_nizampatnam/" target="_blank" onclick="PlaySound('button')"><button class="navbut"><b>INSTAGRAM</b></button></a>
+		<a href="https://twitter.com/Bhargav_Sai_N" target="_blank" onclick="PlaySound('button')"><button class="navbut"><b>TWITTER</b></button></a>
+		<a href="https://github.com/bhargavsai2001" target="_blank" onclick="PlaySound('button')"><button class="navbut"><b>GITHUB</b></button></a>
+		<a href="https://www.linkedin.com/in/bhargav-sai-nizampatnam-0695a118a" target="_blank" onclick="PlaySound('button')"><button class="navbut"><b>LINKEDIN</b></button></a>
+		
+	</div><hr>
+	<img src="images/banner.jpg" width=100% >
+
+	
+
+	
+
+	<div class="footer">
+		<h3 align="center" class="logofoot">BHARGAV SAI NIZAMPATNAM</h3>
+		<p align="center">No Copyright 2021, All rights not reserved</p>
+		<a href="/EP/HTML/index.html" onclick="PlaySound('button')"><button>EP</button></a>
+	</div>
+	<script>
+		alert("Hover over elements to feel sound effects");
+
+		function PlaySound(soundobj) {
+		    var thissound=document.getElementById(soundobj);
+		    thissound.play();
+		}
+
+		function StopSound(soundobj) {
+		    var thissound=document.getElementById(soundobj);
+		    thissound.pause();
+		    thissound.currentTime = 0;
+		}
+	</script>
+	<audio id='mySound' src='F:\EP\BLOG\thunder.mp3'/>
+	<audio id='button' src='F:\EP\BLOG\button.mp3'/>
+
+</body>
+
+
+</html>
